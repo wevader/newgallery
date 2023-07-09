@@ -1,12 +1,12 @@
 import dataCategorias from './datos/categorias'
-console.log(dataCategorias)
+
 const {categorias} = dataCategorias
 const contenedorCategorias = document.getElementById('categorias')
 
 
 
 categorias.forEach((categoria) => {
-    console.log(categorias)
+    
     const nuevaCategoria = document.createElement('a')
     const plantilla = `<img class="categoria__img" src="${categoria.imagenPortada} " alt="" />
     <div class="categoria__datos">
